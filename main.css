@@ -1,0 +1,74 @@
+img.poster
+{
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    border-color: black;
+}
+a.signup
+{
+    float: left;
+    size: 0vmax;
+}
+a.login
+{
+    float: right;
+    size: calc(640*360);
+}
+img.jailer
+{
+    float: right;
+    height: 150px;
+    width: 250px;
+}
+img.thunivu
+{
+    float: right;
+    height: 150px;
+    width: 250px;
+}
+img.naanevaruven
+{
+    float: right;
+    height: 150px;
+    width: 250px;
+}
+button.loginbutton
+{
+    border-color: blue;
+    background-color: gold;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-width: 5px;
+    border-style: ridge;
+    border-radius: 25px;
+}
+button.signupbutton
+{
+    border-color: blue;
+    background-color: gold;
+    font-weight: bolder;
+    font-size: 1rem;
+    border-width: 5px;
+    border-style: ridge;
+    border-radius: 25px;
+}
+.signupbutton:hover
+{
+    cursor: pointer;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 25px;
+}
+.loginbutton:hover
+{
+    cursor: pointer;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 25px;
+}
+iframe
+{
+    width: 100%;
+    height: 400px;
+}
